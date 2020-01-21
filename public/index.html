@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
+    
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
     <title>CSS/HTML Workshop with govirtuo.com</title>
   </head>
-  <body>
+  <body style ="background-color: 		rgb(36, 44, 60);">
+
+    <h1>VIRTUO </h1>
+    <h2>La location de Voiture nouvelle génération </h2>
+    <img src = "logo.jpg" />
     <div id="car">
       <input class="js-name" type="text" placeholder="Car name"/>
       <input class="js-price-by-day" type="number" placeholder="Price by day"/>
       <input class="js-price-by-km" type="number" placeholder="Price by km"/>
     </div>
+ <br/>
     <div id="rental">
       <input class="js-name" type="text" placeholder="Driver name"/>
       <input class="js-begin" type="date" placeholder="Rental begin date"/>
@@ -16,7 +24,9 @@
       <input class="js-distance" type="number" placeholder="Distance in km"/>
       <input class="js-option" type="checkbox" placeholder="Deductible option"/>
     </div>
-    <button id="compute">Compute</button>
+
+    <ul><bt><button id="compute">Compute</button></bt>
+    </ul>
     <div id="actors"></div>
     <script src="virtuo.js"></script>
     <script src="index.js"></script>
